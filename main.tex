@@ -13,6 +13,7 @@
 \usepackage{tikz} 
 \usepackage{eso-pic}
 \usepackage{amsmath}
+\usepackage{hyperref}
 
 \author{Tomas Lyngroth \\ Aleksander Holthe \\ Vanja Katinka Halvorsen \\ Stian Fredriksen \\ Kent Kjeldaas \\ Katrine Sundal Haune}
 
@@ -45,7 +46,7 @@
     \end{figure}                              
     \textsc{\Huge Justification of Project}  
     \\[1 cm]
-    \textsc{\Large EXTRA NAME}   
+    \textsc{\Large Variable Pitch Quadcopter}   
     \\[3.0 cm]
 	\large \vapiqteam      
 \end{titlepage}
@@ -63,7 +64,7 @@
 
 0.0       & $11.01.17$   & Created file, standard front page, & KSH  & KSH \\
           &              & tables and structures.    &     & \\\rowcolor{gainsboro}
-0.1       & $00.00.00$   & what was done  & Name    & Name          \\
+0.1       & $12.01.17$   & Wrote project and justification text & KSH    & KSH          \\
 0.2       & $00.00.00$   & what was done  & Name    & Name          \\ \rowcolor{gainsboro}
 0.3       & $00.00.00$   & what was done  & Name    & Neme          \\
 \end{tabular}                                                                   
@@ -90,19 +91,35 @@ Katrine Sundal Haune  & KSH         \\\rowcolor{gainsboro}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
-% ABSTRACT
-
-
 % LIST OF STUFF
 \tableofcontents
+\newpage
+
+% MAIN TEXT
+\section{Project}
+Norwegian Defence Research Establishment (FFI) has requested a research paper on the benefits and drawbacks of variable pitch quadcopters. The paper shall provide an analysis of stability, efficiency and capabilities of variable pitch quadcopters for use in turbulent and disturbing conditions. The paper will also discuss and investigate the design, dynamics and control theory of a variable pitch quadcopter.
+
+\section{Justification}
+Norwegian Defence Research Establishment has the need to examine some properties regarding quadcopter having propellers with variable pitch. 
+\newline
+\newline
+A quadcopter with traditional propellers, also called fixed pitch propellers, is being controlled by changing the speed of the individual propellers. This means that it can be generated more or less thrust, as required. But in many cases this method is to slow. The quadcopter will be very unstable when flying in turbulence or other disturbing conditions. This is the main reason why we are doing research and tests on a quadcopter with variable pitch propellers. 
+\newline
+\newline
+By adding the function of variable pitch propellers, there will also be a relatively small amount of complexity and weight added to the quadcopter. However, a variable pitch quadcopter will have the advantage of a fundamental increase in performance and capability. We will determine the different advantages in this bachelor project, but we already know some of the advantages. For instant we know that a variable pitch quadcopter can reverse thrust very fast. This leads to a very accurate attitude and acceleration command tracking. \cite{MIT}
+\newline
+\newline
+To determine the advantages and disadvantages of variable pitch quadcopter we will design a fixed pitch quadcopter and a variable pitch quadcopter. This makes it easier for our bachelor team to perform the different tests. 
+
+
+
+\newpage
+\subfile{Sections/references}
 \newpage
 
 %% SEE MAL-file
 
 % Abstract
-\subfile{Sections/Abstract}
 
 %INTRODUCTION 
 %\subfile{Sections/Introduction}
@@ -118,7 +135,5 @@ Katrine Sundal Haune  & KSH         \\\rowcolor{gainsboro}
 % BASIC PICTURE SETUP
 %\subfile{sections/PICTURE_MAL_file}
 %\newpage
-
-
 
 \end{document}
